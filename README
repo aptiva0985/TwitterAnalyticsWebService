@@ -1,0 +1,4 @@
+A web service for Twitter data analysis. The client has provided a raw dump of tweets that runs into tens of gigabytes. The dataset will have to be stored within your web service. The web service should be able to handle a specific number of requests per second for several hours.
+
+Queries are mainly related to tweets at specific time, users¡¯ tweets amount and retweet relationship.
+Implemented frontend by using Jersey Framework to provide RESTful service, and have HBase on the backend to store the dataset. Also the ETL process on raw data was done by Hadoop.
